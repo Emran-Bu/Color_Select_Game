@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border: none ;
+}
+
+body{
+    background: rgb(80, 69, 69);
+    transition: 3s all ease;
+}
+
+.cont1{
+    position: relative;
+    /* width: 800px; */
+}
+
+.formDiv{
+    position: absolute;
+    border: 3px solid red;
+    /* margin-right: 300px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* .formDiv{
+    border: none !important;
+    position: relative;
+} */
+
+.cont{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    border: 5px solid rgb(30, 255, 0);
+    border-radius: 5px;
+    padding: 0px 15px 40px 15px;
+    /* margin-top: 0px; */
+    /* width: 270px; */
+}
+
+.numDiv{
+    background: cadetblue;
+    /* height: 35px; */
+    border-radius: 4px;
+    /* margin-left: 450px; */
+    width: 200px;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.numDiv div{
+    color: #fff;
+    font-size: 22px;
+    font-size: 30px;
+}
+
+.numDiv{
+   
+}
+
+.colorDiv{
+    /* margin-left: 450px; */
+    width: 200px;
+    height: 50px;
+    border-radius: 2px;
+    background: cornsilk;
+}
+
+.generate{
+    width: 95px;
+}
+
+.generateDiv{
+    margin-top: 12px;
+}
+
+/*  */
+
+.inputBalance{
+    background: cadetblue;
+    font-size: 25px;
+    padding: 4px;
+    border-radius: 3px;
+    height: 45px;
+    color: chartreuse;
+    
+}
+
+.balance{
+    margin-left: 50px;
+}
+
+.youBalance{
+    color: cornsilk;
+}
+
+.inputLabel{
+    color: cornsilk;
+}
+
+#inputBox{
+    font-size: 20px;
+    border: none !important;
+}
+.confirm{
+    font-size: 20px;
+    border: none !important;
+}
